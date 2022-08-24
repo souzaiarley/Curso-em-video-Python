@@ -1,0 +1,7 @@
+frase = str(input('Digite algo: ')).strip().lower().replace('á', 'a').replace('à', 'a').replace('ã', 'a').replace('â', 'a')
+na = frase.count('a')
+pa = frase.find('a')
+ua = frase.rfind('a')
+print(f'A letra "A" aparece {na} vez(es).')
+print(f'A primeira letra "A" aparece na posição {pa + 1}.')
+print(f'A última letra "A" aparece na posição {ua + 1}.')
